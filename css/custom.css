@@ -1,7 +1,14 @@
+/* Geral */
 body {
     background-color: #0a0a0a;
     font-family: 'Raleway', sans-serif;
 }
+hr {
+    background-color: #f05a28;
+    margin: 0;
+    padding: 0;
+}
+/* Barra de Navegação */
 #menuNavegacao {
     background-color: #0a0a0a;
 }
@@ -25,6 +32,29 @@ nav#menuNavegacao a {
 .carousel-inner h2 {
     font-size: 40px;
 }
+.carousel-inner h2 a {
+    color: rgba(255, 255, 255, 0.5);
+    transition: 0.5s;
+}
 .carousel-inner h2 a:hover {
     text-decoration: none;
+    color: #f05a28;
+    transition: 0.5s;
+}
+/* Seção Sobre na página Home */
+#home-sobre {
+    color: rgba(255, 255, 255, 0.7);
+    height: 600px;
+    width: 500px;
+}
+#home-sobre h2, p {
+    font-weight: 300;
+}
+#home-atuacao {
+    height: 600px;
+    padding: 150px 0px;
+}
+#home-atuacao img {
+    margin: 0px -2px;
+    
 }
