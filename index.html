@@ -1,15 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MOS Advocacia</title>
-    <!-- CSS Bootstrap 4 -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <!-- CSS Customizado -->
-    <link rel="stylesheet" href="css/custom.css">
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-ua-complatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MOS Advocacia</title>
+        <!-- CSS Bootstrap 4 -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!-- CSS Customizado -->
+        <link rel="stylesheet" href="css/custom.css">
+        <!-- Google Fonts - Raleway -->
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Menu de Navegação -->
+        <div class="container">
+            <nav id="menuNavegacao" class="navbar navbar-expand-sm navbar-dark">
+                <!-- Marca/Logo -->
+                <a class="navbar-brand" href="index.html" title="Voltar para a Home"><img src="img/menu-logo.png" alt="Logo - MOS Advocacia" width="170px"></a>
+                <!-- Menu Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul id="listaNavegacao" class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Atuação</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sócios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- Corrossel -->
+        <div class="container">
+            <div id="carrossel-home" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#carrossel-home" data-slide-to="0" class="active"></li>
+                    <li data-target="#carrossel-home" data-slide-to="1"></li>
+                    <li data-target="#carrossel-home" data-slide-to="2"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/home-hero_about-84.jpeg" alt="Sobre a MOS Advocacia" width="1100" height="500">
+                        <div class="carousel-caption">
+                            <h2><a href="#">Sobre</a></h2>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/home-hero_atuacao-74.jpeg" alt="Áreas de atuação da MOS Advocacia" width="1100" height="500">
+                        <div class="carousel-caption">
+                            <h2><a href="#">Atuação</a></h2>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/home-hero_contact-14.jpeg" alt="Entre em contato com a MOS Advocacia" width="1100" height="500">
+                        <div class="carousel-caption">
+                            <h2><a href="#">Contato</a></h2>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carrossel-home" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#carrossel-home" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+        <!-- JS, Popper.js e jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
 </html>
