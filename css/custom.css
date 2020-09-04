@@ -53,8 +53,8 @@ nav#menuNavegacao a {
 #home-atuacao {
     height: 600px;
     padding: 150px 0px;
+    display: flex;
 }
 #home-atuacao img {
-    margin: 0px -2px;
-    
+    opacity: 0.5;
 }
