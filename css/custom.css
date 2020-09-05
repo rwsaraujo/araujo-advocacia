@@ -42,6 +42,12 @@ nav#menuNavegacao a {
     transition: 0.5s;
 }
 /* Seção Sobre na página Home */
+div#secao-atuacao {
+    height: 600px;
+}
+div#secao-atuacao p, div#secao-atuacao a {
+    color: rgba(255, 255, 255, 0.5)
+}
 #home-sobre {
     color: rgba(255, 255, 255, 0.7);
     height: 600px;
@@ -51,10 +57,53 @@ nav#menuNavegacao a {
     font-weight: 300;
 }
 #home-atuacao {
-    height: 600px;
-    padding: 150px 0px;
     display: flex;
 }
-#home-atuacao img {
-    opacity: 0.5;
+#home-atuacao .card {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: 0.5s;
+}
+#home-atuacao .card:hover {
+    background-color: #f05a28;
+    color: #f05a28;
+    transition: 0.5s;
+}
+#home-atuacao .card-body {
+    background-color: #0a0a0a;
+}
+#home-atuacao .btn:hover {
+    color: #f05a28;
+}
+/* Modal - áreas de atuação */
+div .modal-header, .modal-body, .modal-footer {
+    background-color: black;
+    color: white;
+}
+div .modal-footer button, a {
+    color: white;
+}
+div .modal-footer button:hover, a:hover {
+    color: #f05a28;
+    text-decoration: none;
+}
+/* Footer */
+#rodape {
+    background-color: black;
+    color: white;
+}
+#footer-telefone a {
+    transition: 0.5s;
+}
+#rodape a:hover {
+    color: #f05a28;
+    transition: 0.5s;
+    margin: 0;
+    padding: 0;
+}
+#bloco-endereco {
+    line-height: 0.4;
+}
+/* Desenvolvedor */
+div#desenvolvedor {
+    text-align: center;
 }
