@@ -86,6 +86,13 @@ div .modal-footer button:hover, a:hover {
     color: #f05a28;
     text-decoration: none;
 }
+#modal-contato1, #modal-contato2, #modal-contato3 {
+    transition: 0.5s;
+}
+#modal-contato1:hover, #modal-contato2:hover, #modal-contato3:hover {
+    color: #f05a28;
+    transition: 0.5s;
+}
 /* Footer */
 #rodape {
     background-color: black;
