@@ -50,7 +50,7 @@ div#secao-atuacao p, div#secao-atuacao a {
 }
 #home-sobre {
     color: rgba(255, 255, 255, 0.7);
-    height: 600px;
+    
     width: 500px;
 }
 #home-sobre h2, p {
@@ -87,6 +87,7 @@ div .modal-footer button:hover, a:hover {
     text-decoration: none;
 }
 #modal-contato1, #modal-contato2, #modal-contato3 {
+    color: white;
     transition: 0.5s;
 }
 #modal-contato1:hover, #modal-contato2:hover, #modal-contato3:hover {
