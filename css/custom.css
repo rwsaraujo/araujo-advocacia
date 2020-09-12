@@ -118,6 +118,9 @@ div .modal-footer button:hover, a:hover {
 div#desenvolvedor {
     text-align: center;
 }
+div#desenvolvedor a {
+    transition: 0.5s;
+}
 /* Página Sócios */
 /* Seção Sócios */
 #socios-socios div{
