@@ -1,59 +1,88 @@
-/* Geral */
+/* GERAL */
 * {
     font-weight: 200;
 }
 body {
-    background-color: #0a0a0a;
+    background-color: #e8e8e8;
     font-family: 'Raleway', sans-serif;
 }
 hr {
-    background-color: #f05a28;
+    background-color: #000000;
     margin: 0;
     padding: 0;
 }
-/* Barra de Navegação */
+
+/* BARRA DO MENU DE NAVEGAÇÃO */
 #menuNavegacao {
-    background-color: #0a0a0a;
+    background-color: #e8e8e8;
 }
 nav#menuNavegacao a {
-    color: rgba(255, 255, 255, 0.5);
+    color: #000000;
 }
 #listaNavegacao li a {
+    font-weight: 300;
     padding: 0 5px;
     transition: 0.6s;
 }
 #listaNavegacao li a:hover{
-    color: #f05a28;
+    text-decoration: underline;
     transition: 0.6s;
 }
-/* Carrossel */
-/* Make the image fully responsive */
+
+/* FOOTER */
+#rodape {
+    background-color: #ffffff;
+    color: #000000;
+}
+#footer-telefone a {
+    transition: 0.5s;
+}
+#rodape a:hover {
+    color: #000000;
+    transition: 0.5s;
+    margin: 0;
+    padding: 0;
+}
+#bloco-endereco {
+    line-height: 0.4;
+}
+/* LINK PARA A PÁGINA DO DESENVOLVEDOR DO SITE */
+div#desenvolvedor {
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+div#desenvolvedor a {
+    font-weight: 400;
+    color: #000000;
+    transition: 0.5s;
+}
+
+/* PÁGINA HOME - CARROSSEL/CAROUSEL */
 .carousel-inner img {
     width: 100%;
     height: 100%;
+    filter: brightness(0.3);
 }
 .carousel-inner h2 {
     font-size: 40px;
 }
 .carousel-inner h2 a {
-    color: rgba(255, 255, 255, 0.5);
+    color: #ffffff;
     transition: 0.5s;
 }
 .carousel-inner h2 a:hover {
-    text-decoration: none;
-    color: #f05a28;
+    text-decoration: underline;
     transition: 0.5s;
 }
-/* Seção Sobre na página Home */
+/* PÁGINA HOME - SOBRE */
 div#secao-atuacao {
     min-height: 600px;
 }
 div#secao-atuacao p, div#secao-atuacao a {
-    color: rgba(255, 255, 255, 0.5)
+    color: #000000;
 }
 #home-sobre {
-    color: rgba(255, 255, 255, 0.7);
-    
+    color: #000000; 
     width: 500px;
 }
 #home-sobre h2, p {
@@ -67,72 +96,58 @@ div#secao-atuacao p, div#secao-atuacao a {
     transition: 0.5s;
 }
 #home-atuacao .card:hover {
-    background-color: #f05a28;
-    color: #f05a28;
+    background-color: #000000;
     transition: 0.5s;
 }
 #home-atuacao .card-body {
-    background-color: #0a0a0a;
+    background-color: #ffffff;
 }
 #home-atuacao .btn:hover {
-    color: #f05a28;
+    text-decoration: underline;
 }
-/* Modal - áreas de atuação */
+/* PÁGINA HOME/SOBRE/ATUAÇÃO - MODAL */
 div .modal-header, .modal-body, .modal-footer {
-    background-color: black;
-    color: white;
+    background-color: #e8e8e8;
+    color: #000000;
 }
 div .modal-footer button, a {
-    color: white;
+    color: #000000;
 }
 div .modal-footer button:hover, a:hover {
-    color: #f05a28;
-    text-decoration: none;
+    text-decoration: underline;
 }
 #modal-contato1, #modal-contato2, #modal-contato3 {
-    color: white;
+    color: #000000;
     transition: 0.5s;
 }
 #modal-contato1:hover, #modal-contato2:hover, #modal-contato3:hover {
-    color: #f05a28;
     transition: 0.5s;
 }
-/* Footer */
-#rodape {
-    background-color: black;
-    color: white;
-}
-#footer-telefone a {
-    transition: 0.5s;
-}
-#rodape a:hover {
-    color: #f05a28;
-    transition: 0.5s;
-    margin: 0;
-    padding: 0;
-}
-#bloco-endereco {
-    line-height: 0.4;
-}
-/* Link para o Desenvolvedor */
-div#desenvolvedor {
-    text-align: center;
-}
-div#desenvolvedor a {
-    transition: 0.5s;
-}
-/* Página Sócios */
-/* Seção Sócios */
+
+/* PÁGINA SÓCIOS - OS SÓCIOS */
 #socios-socios div{
-    color: rgba(255, 255, 255, 0.5);
-    background-color: #0a0a0a;
+    color: #000000;
+    background-color: #e8e8e8;
 }
 #socios-socios a {
-    color: rgba(255, 255, 255, 0.8);
+    color: #000000;
     transition: 0.5s;
     font-weight: 200;
 }
 #socios-socios a:hover {
-    color: #f05a28;
+    text-decoration: underline;
     transition: 0.5s;
+}
+div#socios-sobre {
+    background-color: #ffffff;
+}
+#socios-sobre {
+    color: #000000; 
+}
+#socios-sobre div p {
+    width: 500px;
+    margin: auto;
+}
+#socios-sobre h2, p {
+    font-weight: 300;
 }
