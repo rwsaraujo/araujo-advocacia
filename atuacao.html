@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-ua-complatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MOS Advocacia</title>
+        <!-- CSS Bootstrap 4 -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!-- CSS Customizado -->
+        <link rel="stylesheet" href="css/custom.css">
+        <!-- Google Fonts - Raleway -->
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Menu de Navegação -->
+        <div class="container">
+            <nav id="menuNavegacao" class="navbar navbar-expand-sm navbar-dark">
+                <!-- Marca/Logo -->
+                <a class="navbar-brand" href="index.html" title="Voltar para a Home"><img src="img/menu-logo.png" alt="Logo - MOS Advocacia" width="170px"></a>
+                <!-- Menu Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul id="listaNavegacao" class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre.html">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="color: #f05a28;" class="nav-link" href="#">Atuação</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="socios.html">Sócios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- Banner -->
+        <div id="sobre-imagem" class="container">
+            <div class="carousel-inner">
+                <img style="filter: opacity(0.3);" src="img/atuacao_hero-title-57.jpeg" alt="Sobre a MOS Advocacia" width="1100">
+                <div class="carousel-caption">
+                    <h2 style="color: #f05a28;">Atuação</h2>
+                    <p>A Mattos, Osna & Sirena Sociedade de Advogados, com sua equipe altamente técnica e multidisciplinar, fornece soluções especializadas e integradas em diferentes setores, tanto para pessoas físicas quanto jurídicas, sempre com um sócio responsável pela condução do respectivo grupo.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Os Sócios -->
+        <div id="socios-socios" class="container mt-5 p-5">
+            <div class="card-columns">
+                <div class="card">
+                    <div class="card-body">
+                        <h2><a href="">Eduardo Mattos</a></h2>
+                        <p class="card-text">
+                            Finanças e investimentos;<br>
+                            Reestruturação e insolvência;<br>
+                            Societário;<br>
+                            Propriedade industrial.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h2><a href="">Gustavo Osna</a></h2>
+                        <p class="card-text">
+                            Litígios Complexos;<br>
+                            Contencioso cível e empresarial;<br>
+                            Direito público empresarial;<br>
+                            Conciliação e Mediação.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h2><a href="">Hugo Sirena</a></h2>
+                        <p class="card-text">
+                            Família e planejamento sucessório;<br>
+                            Contratos e estruturação de negócios;<br>
+                            Responsabilidade civil e consumidor;<br>
+                            Agronegócio.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+       <!-- Seção Áreas de Atuação -->
+        <div id="secao-atuacao" class="mt-5">
+            <div class="container"><p style="color: #f05a28;">Conheça algumas de nossas áreas de atuação:</p></div>
+            <!-- Linha 1 -->
+            <div id="home-atuacao" class="container">
+                <div class="card" style="width: 400px;">
+                    <img class="card-img-top" style="width: 100%;" src="img/atuacao-coletivo.jpeg" alt="Direito Contencioso cível e empresarial - MOS Advocacia">
+                    <div class="card-body">
+                        <p class="card-title">Contencioso cível e empresarial</p>
+                        <a href="#" class="btn" data-toggle="modal" data-target="#modal-contencioso">Ver mais</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 400px;">
+                    <img class="card-img-top" style="width: 100%;" src="img/atuacao-familias.jpeg" alt="Direito de família e planejamento sucessório - MOS Advocacia">
+                    <div class="card-body">
+                        <p class="card-title">Família e planejamento sucessório</p>
+                        <a href="#" class="btn" data-toggle="modal" data-target="#modal-familia">Ver mais</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 400px;">
+                    <img class="card-img-top" style="width: 100%;" src="img/atuacao-reestruturacao.jpeg" alt="Direito de Reestruturação e insolvência - MOS Advocacia">
+                    <div class="card-body">
+                        <p class="card-title">Reestruturação e insolvência</p>
+                        <a href="#" class="btn" data-toggle="modal" data-target="#modal-reestruturacao">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Linha 2 -->
+            <div id="home-atuacao" class="container">
+                <div class="card" style="width: 400px;">
+                    <img class="card-img-top" style="width: 100%;" src="img/atuacao-coletivo.jpeg" alt="Direito Contencioso cível e empresarial - MOS Advocacia">
+                    <div class="card-body">
+                        <p class="card-title">Agronegócio</p>
+                        <a href="#" class="btn" data-toggle="modal" data-target="#modal-contencioso">Ver mais</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 400px;">
+                    <img class="card-img-top" style="width: 100%;" src="img/atuacao-familias.jpeg" alt="Direito de família e planejamento sucessório - MOS Advocacia">
+                    <div class="card-body">
+                        <p class="card-title">Família e planejamento sucessório</p>
+                        <a href="#" class="btn" data-toggle="modal" data-target="#modal-familia">Ver mais</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 400px;">
+                    <img class="card-img-top" style="width: 100%;" src="img/atuacao-reestruturacao.jpeg" alt="Direito de Reestruturação e insolvência - MOS Advocacia">
+                    <div class="card-body">
+                        <p class="card-title">Reestruturação e insolvência</p>
+                        <a href="#" class="btn" data-toggle="modal" data-target="#modal-reestruturacao">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Linha 3 -->
+            <div id="home-atuacao" class="container">
+                <div class="card" style="width: 400px;">
+                    <img class="card-img-top" style="width: 100%;" src="img/atuacao-coletivo.jpeg" alt="Direito Contencioso cível e empresarial - MOS Advocacia">
+                    <div class="card-body">
+                        <p class="card-title">Contencioso cível e empresarial</p>
+                        <a href="#" class="btn" data-toggle="modal" data-target="#modal-contencioso">Ver mais</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 400px;">
+                    <img class="card-img-top" style="width: 100%;" src="img/atuacao-familias.jpeg" alt="Direito de família e planejamento sucessório - MOS Advocacia">
+                    <div class="card-body">
+                        <p class="card-title">Família e planejamento sucessório</p>
+                        <a href="#" class="btn" data-toggle="modal" data-target="#modal-familia">Ver mais</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 400px;">
+                    <img class="card-img-top" style="width: 100%;" src="img/atuacao-reestruturacao.jpeg" alt="Direito de Reestruturação e insolvência - MOS Advocacia">
+                    <div class="card-body">
+                        <p class="card-title">Reestruturação e insolvência</p>
+                        <a href="#" class="btn" data-toggle="modal" data-target="#modal-reestruturacao">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Linha 4 -->
+            <div id="home-atuacao" class="container">
+                <div class="card" style="width: 400px;">
+                    <img class="card-img-top" style="width: 100%;" src="img/atuacao-coletivo.jpeg" alt="Direito Contencioso cível e empresarial - MOS Advocacia">
+                    <div class="card-body">
+                        <p class="card-title">Contencioso cível e empresarial</p>
+                        <a href="#" class="btn" data-toggle="modal" data-target="#modal-contencioso">Ver mais</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 400px;">
+                    <img class="card-img-top" style="width: 100%;" src="img/atuacao-familias.jpeg" alt="Direito de família e planejamento sucessório - MOS Advocacia">
+                    <div class="card-body">
+                        <p class="card-title">Família e planejamento sucessório</p>
+                        <a href="#" class="btn" data-toggle="modal" data-target="#modal-familia">Ver mais</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 400px;">
+                    <img class="card-img-top" style="width: 100%;" src="img/atuacao-reestruturacao.jpeg" alt="Direito de Reestruturação e insolvência - MOS Advocacia">
+                    <div class="card-body">
+                        <p class="card-title">Reestruturação e insolvência</p>
+                        <a href="#" class="btn" data-toggle="modal" data-target="#modal-reestruturacao">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Modal - Contencioso -->
+            <div class="modal fade" id="modal-contencioso">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Contencioso cível e empresarial</h4>
+                        </div>
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <p>A Mattos, Osna & Sirena representa e instrui seus clientes, judicial ou extrajudicialmente, em todo tipo de disputa nas áreas cível e empresarial.</p>
+                            <br>
+                            <p>Ao conhecer, profunda e concomitantemente, o processo civil e as necessidades materiais inerentes à sua atuação prática, prestamos uma advocacia combativa e focada em resultados, pautada na lealdade e na transparência. Além disso, trabalhamos ao longo dos anos com pareceres, notas técnicas e orientações técnico- jurídicas ligadas a questões processuais de diferentes graus de especificidade e complexidade.</p>
+                            <button class="btn" type="button"><a id="modal-contato1" href="contato.html">Entre em contato</a></button>
+                        </div>
+                        <!-- Modal Footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal - Familia -->
+            <div class="modal fade" id="modal-familia">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Família e planejamento sucessório</h4>
+                        </div>
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <p>Problemas familiares podem estar no âmago de algumas das maiores frustrações da vida de quem por eles passa. Situações envolvendo divórcio, divisão de patrimônio, guarda de filhos ou fixação de pensão podem gerar abalos e desgastes insuperáveis para todos os envolvidos.</p>
+                            <br>
+                            <p>Por tal motivo, a Mattos, Osna & Sirena possui grupo interno voltado à atuação específica no Direito de Família, especificamente em duas frentes: (i) no fornecimento da solução que apazigue a situação e atenda aos interesses de nossos clientes e (ii) no planejamento de todos os reflexos patrimoniais que a situação familiar pode gerar.</p>
+                            <br>
+                            <p>Com muito tato, sensibilidade, profissionalismo e treinamento nas áreas financeira e de negociação, a equipe da MOS presta serviços diferenciados e reconhecidos nessa área.</p>
+                            <button class="btn" type="button"><a id="modal-contato2" href="contato.html">Entre em contato</a></button>
+                        </div>
+                        <!-- Modal Footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal - Reestruturação -->
+            <div class="modal fade" id="modal-reestruturacao">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Reestruturação e insolvência</h4>
+                        </div>
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <p>Em razão da formação e experiência de seus sócios na área financeira, a Mattos, Osna & Sirena presta serviços únicos na área de reestruturação e insolvência.</p>
+                            <br>
+                            <p>Trabalhando com devedores, a MOS efetua uma avaliação e acompanhamento geral da situação de seus clientes, desde o diagnóstico da origem das dificuldades financeiras, passando pela definição de estratégias para contornar o problema (turnaround management), culminando, eventualmente, na estruturação das medidas jurídicas a serem adotadas.</p>
+                            <br>
+                            <p>Representando credores e investidores, a MOS atua na reestruturação e negociação bilateral de dívidas, atuação judicial e em assembleias, negociação de compra de unidades produtivas isoladas, avaliação de viabilidade de planos de recuperação, dentre outras frentes jurídicas e financeiras.</p>
+                            <br>
+                            <p>Com isso, a atuação do Escritório é uma verdadeira vantagem competitiva aos seus clientes, na medida em que a MOS identifica oportunidades, projetos e condições e fornece soluções que outros profissionais, em uma abordagem jurídica tradicional, não encontrariam.</p>
+                            <button class="btn" type="button"><a id="modal-contato3" href="contato.html">Entre em contato</a></button>
+                        </div>
+                        <!-- Modal Footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div id="rodape" class="jumbotron text-center mt-5">
+            <div class="row">
+                <!-- Endereço -->
+                <div class="col" id="footer-endereco">
+                    <h2>MOS Advocacia</h2>
+                    <p>Mattos, Osna e Sirena Sociedade de Advogados</p>
+                    <br>
+                    <div id="bloco-endereco">
+                        <p>Av. Presidente Getúlio Vargas, 2932 - 6º andar.</p>
+                        <p>Curitiba, Paraná.</p>
+                        <p>80.240-040</p>
+                    </div>
+                </div>
+                <!-- Telefone -->
+                <div class="col" id="footer-telefone">
+                    <h2><a href="tel:4130137775">41 3013 7775</a></h2>
+                    <p><a href="mailto:contato@mosadvocacia.com.br">contato@mosadvocacia.com.br</a></p>
+                </div>
+            </div>
+        </div>
+        <div id="desenvolvedor">
+            <p>Desenvolvido por <a href="https://araujowebdev.com/" target="blank">Raphael Araújo</a></p>
+        </div>
+        <!-- JS, Popper.js e jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
+</html>
