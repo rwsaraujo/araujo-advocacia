@@ -83,7 +83,8 @@ div#secao-atuacao p, div#secao-atuacao a {
 }
 #home-sobre {
     color: #000000; 
-    width: 500px;
+    max-width: 500px;
+    text-align: left;
 }
 #home-sobre h2, p {
     font-weight: 300;
@@ -139,7 +140,7 @@ div .modal-footer button:hover, a:hover {
     transition: 0.5s;
 }
 div#socios-sobre {
-    background-color: #ffffff;
+    background-color: #000000;
 }
 #socios-sobre {
     color: #000000; 

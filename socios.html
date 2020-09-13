@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-ua-complatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Araújo Advocacia</title>
+        <!-- CSS Bootstrap 4 -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!-- CSS Customizado -->
+        <link rel="stylesheet" href="css/custom.css">
+        <!-- Google Fonts - Raleway -->
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Menu de Navegação -->
+        <div class="container">
+            <nav id="menuNavegacao" class="navbar navbar-expand-sm navbar-dark">
+                <!-- Marca/Logo -->
+                <a class="navbar-brand" href="index.html" title="Voltar para a Home"><img src="img/logo-araujo-advocacia.png" alt="Logo - Araújo Advocacia" width="100px"></a>
+                <!-- Menu Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul id="listaNavegacao" class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="atuacao.html">Atuação</a>
+                        </li>
+                        <li class="nav-item">
+                            <a  style="text-decoration: underline;" class="nav-link" href="socios.html">Sócios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- Texto sobre os sócios -->
+        <div id="socios-sobre" class="jumbotron container text-center">
+            <div>
+                <h2>Sócios</h2>
+                <p class="d-none d-sm-block">Os sócios do Escritório são profissionais com compromisso com a excelência: advogados e economistas, mestres e doutores nas melhores instituições nacionais e internacionais, com enfoque de mercado e vocação multidisciplinar.</p>
+            </div>
+        </div>
+        <!-- Os Sócios -->
+        <div id="secao-atuacao" class="mt-5">
+            <div id="home-atuacao" class="container">
+                <div class="card" style="width: 400px;">
+                    <img class="card-img-top" style="width: 100%;" src="img/mateus-araujo.jpg" alt="Direito Contencioso cível e empresarial - Araújo Advocacia">
+                    <div class="card-body">
+                        <a href="#" class="btn" data-toggle="modal" data-target="#modal-contencioso"><h2 class="card-title">Mateus Araújo</h2></a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 400px;">
+                    <img class="card-img-top" style="width: 100%;" src="img/marcos-araujo.jpg" alt="Direito de família e planejamento sucessório - Araújo Advocacia">
+                    <div class="card-body">
+                        
+                        <a href="#" class="btn" data-toggle="modal" data-target="#modal-familia"><h2 class="card-title">Marcos Araújo</h2></a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 400px;">
+                    <img class="card-img-top" style="width: 100%;" src="img/cassia-araujo.jpg" alt="Direito de Reestruturação e insolvência - Araújo Advocacia">
+                    <div class="card-body">
+                        <a href="#" class="btn" data-toggle="modal" data-target="#modal-reestruturacao"><h2 class="card-title">Cássia Araújo</h2></a>
+                    </div>
+                </div>
+            </div>
+       <!-- Seção Áreas de Atuação -->
+       
+        <!-- Footer -->
+        <div id="rodape" class="jumbotron text-center mt-5">
+            <div class="row">
+                <!-- Endereço -->
+                <div class="col-sm-6" id="footer-endereco">
+                    <h2>Araújo Advocacia</h2>
+                    <p>Araújo Sociedade de Advogados</p>
+                    <br>
+                    <div id="bloco-endereco">
+                        <a href="https://goo.gl/maps/qdC94sk2jAfupxXu5" target="blank">
+                            <p>Rua Três, 002 - Itatiquara.</p>
+                            <p>Araruama, Rio de Janeiro.</p>
+                            <p>28970-000</p>
+                        </a>
+                    </div>
+                </div>
+                <!-- Telefone -->
+                <div class="col-sm-6" id="footer-telefone">
+                    <h2><a href="tel:22998574311">22 9 9857 4311</a></h2>
+                    <p><a href="mailto:contato@araujowebdev.com">contato@araujowebdev.com</a></p>
+                </div>
+            </div>
+        </div>
+        <div id="desenvolvedor">
+            <p>Desenvolvido por <a href="https://araujowebdev.com/" target="blank">Raphael Araújo</a></p>
+        </div>
+        <!-- JS, Popper.js e jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
+</html>
