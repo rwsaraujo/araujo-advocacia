@@ -27,13 +27,13 @@
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre</a>
+                            <a class="nav-link" href="sobre.html">Sobre</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="atuacao.html">Atuação</a>
                         </li>
                         <li class="nav-item">
-                            <a  style="text-decoration: underline;" class="nav-link" href="socios.html">Sócios</a>
+                            <a class="nav-link pagina-atual" href="#">Sócios</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contato.html">Contato</a>
@@ -42,45 +42,47 @@
                 </div>
             </nav>
         </div>
+
         <!-- Texto sobre os sócios -->
-        <div id="socios-sobre" class="jumbotron container text-center">
-            <div>
+        <div id="socios-sobre" class="jumbotron container">
+            <div style="text-align: center;">
                 <h2>Sócios</h2>
-                <p class="d-none d-sm-block">Os sócios do Escritório são profissionais com compromisso com a excelência: advogados e economistas, mestres e doutores nas melhores instituições nacionais e internacionais, com enfoque de mercado e vocação multidisciplinar.</p>
+                <p>Os sócios do Escritório são profissionais com compromisso com a excelência: advogados e economistas, mestres e doutores nas melhores instituições nacionais e internacionais, com enfoque de mercado e vocação multidisciplinar.</p>
             </div>
         </div>
+
         <!-- Os Sócios -->
-        <div id="secao-atuacao" class="mt-5">
-            <div id="home-atuacao" class="container">
-                <div class="card" style="width: 400px;">
-                    <img class="card-img-top" style="width: 100%;" src="img/mateus-araujo.jpg" alt="Direito Contencioso cível e empresarial - Araújo Advocacia">
-                    <div class="card-body">
-                        <a href="#" class="btn" data-toggle="modal" data-target="#modal-contencioso"><h2 class="card-title">Mateus Araújo</h2></a>
+        <div id="socios-cards" class="container align-content-center">
+            <div class="row my-2">
+                <!-- Mateus Araújo -->
+                <div class="card img-fluid col-md-4 text-center " style="width:500px">
+                    <img class="card-img-top socios-img" src="img/mateus-araujo.jpg" alt="Mateus Araújo - Araújo Advocacia" style="width:100%">
+                    <div class="card-img-overlay">
+                        <a class="socios-link" href="mateus-araujo.html">Mateus Araújo</a>
                     </div>
                 </div>
-                <br>
-                <div class="card" style="width: 400px;">
-                    <img class="card-img-top" style="width: 100%;" src="img/marcos-araujo.jpg" alt="Direito de família e planejamento sucessório - Araújo Advocacia">
-                    <div class="card-body">
-                        
-                        <a href="#" class="btn" data-toggle="modal" data-target="#modal-familia"><h2 class="card-title">Marcos Araújo</h2></a>
+                <!-- Marcos Araújo -->
+                <div class="card img-fluid col-md-4 text-center" style="width:500px">
+                    <img class="card-img-top socios-img" src="img/marcos-araujo.jpg" alt="Marcos Araújo - Araújo Advocacia" style="width:100%">
+                    <div class="card-img-overlay">
+                        <a class="socios-link" href="marcos-araujo.html">Marcos Araújo</a>
                     </div>
                 </div>
-                <br>
-                <div class="card" style="width: 400px;">
-                    <img class="card-img-top" style="width: 100%;" src="img/cassia-araujo.jpg" alt="Direito de Reestruturação e insolvência - Araújo Advocacia">
-                    <div class="card-body">
-                        <a href="#" class="btn" data-toggle="modal" data-target="#modal-reestruturacao"><h2 class="card-title">Cássia Araújo</h2></a>
+                <!-- Cássia Araújo -->
+                <div class="card img-fluid col-md-4 text-center" style="width:500px">
+                    <img class="card-img-top socios-img" src="img/cassia-araujo.jpg" alt="Cássia Araújo - Araújo Advocacia" style="width:100%">
+                    <div class="card-img-overlay">
+                        <a class="socios-link" href="cassia-araujo.html">Cássia Araújo</a>
                     </div>
                 </div>
             </div>
-       <!-- Seção Áreas de Atuação -->
-       
+        </div>
+
         <!-- Footer -->
         <div id="rodape" class="jumbotron text-center mt-5">
             <div class="row">
                 <!-- Endereço -->
-                <div class="col-sm-6" id="footer-endereco">
+                <div id="footer-endereco" class="col-sm-6" >
                     <h2>Araújo Advocacia</h2>
                     <p>Araújo Sociedade de Advogados</p>
                     <br>
@@ -92,16 +94,19 @@
                         </a>
                     </div>
                 </div>
-                <!-- Telefone -->
-                <div class="col-sm-6" id="footer-telefone">
+                <!-- Telefone e Email -->
+                <div id="footer-tel-email" class="col-sm-6" >
                     <h2><a href="tel:22998574311">22 9 9857 4311</a></h2>
                     <p><a href="mailto:contato@araujowebdev.com">contato@araujowebdev.com</a></p>
                 </div>
             </div>
         </div>
-        <div id="desenvolvedor">
-            <p>Desenvolvido por <a href="https://araujowebdev.com/" target="blank">Raphael Araújo</a></p>
+        <!-- Direitos Reservados e Link para o Desenvolvedor-->
+        <div id="direitos-dev">
+            <p>&copy; 2020 Todos os direitos reservados | Desenvolvido por <a href="https://araujowebdev.com/" target="blank">Raphael Araújo</a></p>
         </div>
+
+
         <!-- JS, Popper.js e jQuery -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

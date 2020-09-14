@@ -1,10 +1,11 @@
 /* GERAL */
 * {
+    font-family: 'Raleway', sans-serif;
     font-weight: 200;
+    color: #000000;
 }
 body {
     background-color: #e8e8e8;
-    font-family: 'Raleway', sans-serif;
 }
 hr {
     background-color: #000000;
@@ -13,99 +14,88 @@ hr {
 }
 
 /* BARRA DO MENU DE NAVEGAÇÃO */
-#menuNavegacao {
-    background-color: #e8e8e8;
-}
-nav#menuNavegacao a {
+#menuNavegacao a {
     color: #000000;
 }
-#listaNavegacao li a {
-    font-weight: 300;
-    padding: 0 5px;
-    transition: 0.6s;
-}
-#listaNavegacao li a:hover{
+#listaNavegacao a:hover{
     text-decoration: underline;
-    transition: 0.6s;
+}
+
+/* BARRA DO MENU DE NAVEGAÇÃO - LINKS - PÁGINA ATUAL */
+.pagina-atual {
+    text-decoration: underline;
 }
 
 /* FOOTER */
+/* FOOTER - GERAL */
 #rodape {
     background-color: #ffffff;
-    color: #000000;
 }
-#footer-telefone a {
-    transition: 0.5s;
-}
-#rodape a:hover {
-    color: #000000;
-    transition: 0.5s;
-    margin: 0;
-    padding: 0;
-}
-#bloco-endereco {
+/* FOOTER - ENDEREÇO */
+#bloco-endereco p {
     line-height: 0.4;
 }
-/* LINK PARA A PÁGINA DO DESENVOLVEDOR DO SITE */
-div#desenvolvedor {
+#bloco-endereco:hover a {
+    color: #000000;
+}
+/* FOOTER - TELEFONE E EMAIL */
+#footer-tel-email:hover a {
+    color: #000000;
+}
+
+/* DIREITOS RESERVADOS E LINK PARA A PÁGINA DO DESENVOLVEDOR DO SITE */
+#direitos-dev p {
     color: rgba(0, 0, 0, 0.5);
     text-align: center;
 }
-div#desenvolvedor a {
-    font-weight: 400;
+#direitos-dev a {
+    font-weight: 300;
+}
+#direitos-dev a:hover {
     color: #000000;
-    transition: 0.5s;
 }
 
 /* PÁGINA HOME - CARROSSEL/CAROUSEL */
 .carousel-inner img {
     width: 100%;
     height: 100%;
-    filter: brightness(0.3);
+    filter: brightness(0.2);
 }
 .carousel-inner h2 {
-    font-size: 40px;
+    font-size: 3rem;
 }
-.carousel-inner h2 a {
+.carousel-inner a {
     color: #ffffff;
-    transition: 0.5s;
 }
-.carousel-inner h2 a:hover {
+.carousel-inner a:hover {
     text-decoration: underline;
-    transition: 0.5s;
 }
 /* PÁGINA HOME - SOBRE */
-div#secao-atuacao {
-    min-height: 600px;
-}
-div#secao-atuacao p, div#secao-atuacao a {
-    color: #000000;
-}
 #home-sobre {
     color: #000000; 
     max-width: 500px;
-    text-align: left;
 }
 #home-sobre h2, p {
     font-weight: 300;
 }
-#home-atuacao {
-    display: flex;
-}
-#home-atuacao .card {
-    background-color: rgba(255, 255, 255, 0.1);
-    transition: 0.5s;
-}
-#home-atuacao .card:hover {
-    background-color: #000000;
-    transition: 0.5s;
-}
-#home-atuacao .card-body {
+/* PÁGINA HOME - ATUAÇÃO CARDS */
+#home-atuacao-cards .card {
     background-color: #ffffff;
+    color: #ffffff;
+    max-width: 400px;
+    max-height: 400px;
 }
-#home-atuacao .btn:hover {
-    text-decoration: underline;
+#home-atuacao-cards .card img {
+    filter: brightness(0.3);
 }
+#home-atuacao-cards h4 {
+    font-weight: 200;
+}
+#home-atuacao-cards a {
+    color: #ffffff;
+    font-size: 15px;
+}
+
 /* PÁGINA HOME/SOBRE/ATUAÇÃO - MODAL */
 div .modal-header, .modal-body, .modal-footer {
     background-color: #e8e8e8;
@@ -126,29 +116,40 @@ div .modal-footer button:hover, a:hover {
 }
 
 /* PÁGINA SÓCIOS - OS SÓCIOS */
-#socios-socios div{
-    color: #000000;
-    background-color: #e8e8e8;
-}
-#socios-socios a {
-    color: #000000;
-    transition: 0.5s;
-    font-weight: 200;
-}
-#socios-socios a:hover {
-    text-decoration: underline;
-    transition: 0.5s;
-}
-div#socios-sobre {
-    background-color: #000000;
-}
+/* PÁGINA SÓCIOS - JUMBOTRON SÓCIOS */
 #socios-sobre {
-    color: #000000; 
+    background-color: #ffffff;
+    color: #000000;
 }
-#socios-sobre div p {
-    width: 500px;
+#socios-sobre p {
+    max-width: 500px;
     margin: auto;
 }
 #socios-sobre h2, p {
     font-weight: 300;
+}
+/* PÁGINA SÓCIOS - CARDS SÓCIOS */
+.socios-link {
+    color: transparent;
+    font-size: 3rem;
+    transition: 0.7s;
+}
+#socios-cards .card .socios-link {
+    transition: 0.7s;
+}
+#socios-cards .card:hover .socios-link {
+    color: #ffffff;
+    transition: 0.7s;
+}
+#socios-cards .card .socios-img {
+    transition: 0.7s;
+}
+#socios-cards .card:hover .socios-img {
+    filter: brightness(.1);
+    transition: 0.7s;
+}
+
+/* PÁGINA CONTATO - TÍTULO */
+#contato-titulo {
+    background-color: #e8e8e8;
 }

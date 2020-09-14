@@ -30,7 +30,7 @@
                             <a class="nav-link" href="sobre.html">Sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a style="text-decoration: underline;" class="nav-link" href="#">Atuação</a>
+                            <a class="nav-link pagina-atual" href="#">Atuação</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="socios.html">Sócios</a>
@@ -53,230 +53,437 @@
             </div>
         </div>
         <!-- Os Sócios -->
-        <div id="socios-socios" class="container mt-5 p-5">
-            <div class="card-columns">
-                <div class="card">
-                    <div class="card-body">
-                        <h2><a href="">Mateus Araújo</a></h2>
-                        <p class="card-text">
-                            Finanças e investimentos;<br>
-                            Reestruturação e insolvência;<br>
-                            Societário;<br>
-                            Propriedade industrial.
-                        </p>
+        <div class="container mt-5 mb-5 pt-5 pb-5 pl-5 pr-5">
+            <div class="row mt-5 mb-5">
+                <div class="col-md-4">
+                    <h2><a href="mateus-araujo.html">Mateus Araújo</a></h2>
+                    <p class="">
+                        Finanças e investimentos;<br>
+                        Reestruturação e insolvência;<br>
+                        Societário;<br>
+                        Propriedade industrial.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h2><a href="marcos-araujo.html">Marcos Araújo</a></h2>
+                    <p class="">
+                        Litígios Complexos;<br>
+                        Contencioso cível e empresarial;<br>
+                        Direito público empresarial;<br>
+                        Conciliação e Mediação.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h2><a href="cassia-araujo.html">Cássia Araújo</a></h2>
+                    <p class="card-text">
+                        Família e planejamento sucessório;<br>
+                        Contratos e estruturação de negócios;<br>
+                        Responsabilidade civil e consumidor;<br>
+                        Agronegócio.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seção Atuação-->
+        <div id="home-atuacao-cards" class="container align-content-center">
+            <div class="row my-2">
+                <!-- Agronegócio -->
+                <div class="card img-fluid col-md-4 text-center " style="width:500px">
+                    <img class="card-img-top" src="img/atuacao-agronegocios.jpeg" alt="Direito de Agronegócio - Araújo Advocacia" style="width:100%">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Agronegócio</h4>
+                        <a class="" href="#" data-toggle="modal" data-target="#modal-agronegocio" title="Saiba mais sobre Direito de Agronegócios">Saiba mais</a>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-body">
-                        <h2><a href="">Marcos Araújo</a></h2>
-                        <p class="card-text">
-                            Litígios Complexos;<br>
-                            Contencioso cível e empresarial;<br>
-                            Direito público empresarial;<br>
-                            Conciliação e Mediação.
-                        </p>
+                <!-- Contratos e Estruturação de Negócios -->
+                <div class="card img-fluid col-md-4 text-center" style="width:500px">
+                    <img class="card-img-top" src="img/atuacao-contatos.jpeg" alt="Direito Contratual e Estruturação de Negócios - Araújo Advocacia" style="width:100%">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Contratos e estruturação de negócios</h4>
+                        <a href="#" data-toggle="modal" data-target="#modal-contratos" title="Saiba mais sobre Direito Contratual e estruturação de negócios">Saiba mais</a>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-body">
-                        <h2><a href="">Cássia Araújo</a></h2>
-                        <p class="card-text">
-                            Família e planejamento sucessório;<br>
-                            Contratos e estruturação de negócios;<br>
-                            Responsabilidade civil e consumidor;<br>
-                            Agronegócio.
-                        </p>
+                <!-- Conciliação e Mediação -->
+                <div class="card img-fluid col-md-4 text-center" style="width:500px">
+                    <img class="card-img-top" src="img/atuacao-conflitos.jpeg" alt="Direito de Conciliação e Mediação - Araújo Advocacia" style="width:100%">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Conciliação e mediação</h4>
+                        <a href="#" data-toggle="modal" data-target="#modal-conciliacao" title="Saiba mais sobre Direito de Conciliação e Mediação">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row my-2">
+                <!-- Contencioso Cível e Empresarial -->
+                <div class="card img-fluid col-md-4 text-center " style="width:500px">
+                    <img class="card-img-top" src="img/atuacao-coletivo.jpeg" alt="Direito Contencioso e empresarial - Araújo Advocacia" style="width:100%">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Contencioso cível e empresarial</h4>
+                        <a class="" href="#" data-toggle="modal" data-target="#modal-contencioso" title="Saiba mais sobre Direito contencioso cível e empresarial">Saiba mais</a>
+                    </div>
+                </div>
+                <!-- Direito Público Empresarial -->
+                <div class="card img-fluid col-md-4 text-center" style="width:500px">
+                    <img class="card-img-top" src="img/services_company.jpeg" alt="Direito Público Empresarial - Araújo Advocacia" style="width:100%">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Direito público empresarial</h4>
+                        <a href="#" data-toggle="modal" data-target="#modal-publico" title="Saiba mais sobre Direito público empresarial">Saiba mais</a>
+                    </div>
+                </div>
+                <!-- Família e Planejamento Sucessório -->
+                <div class="card img-fluid col-md-4 text-center" style="width:500px">
+                    <img class="card-img-top" src="img/atuacao-familias.jpeg" alt="Direito de Família e Planejamento Sucessório - Araújo Advocacia" style="width:100%">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Família e planejamento sucessório</h4>
+                        <a href="#" data-toggle="modal" data-target="#modal-familia" title="Saiba mais sobre Direito de Família e planejamento sucessório">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row my-2">
+                <!-- Finanças e Investimentos -->
+                <div class="card img-fluid col-md-4 text-center " style="width:500px">
+                    <img class="card-img-top" src="img/atuacao-financas.jpeg" alt="Direito de Finanças e Investimentos - Araújo Advocacia" style="width:100%">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Direito de finanças e investimentos</h4>
+                        <a class="" href="#" data-toggle="modal" data-target="#modal-financas" title="Saiba mais sobre Direito de Finanças e Investimentos">Saiba mais</a>
+                    </div>
+                </div>
+                <!-- Litígios Complexos -->
+                <div class="card img-fluid col-md-4 text-center" style="width:500px">
+                    <img class="card-img-top" src="img/atuacao-litigios.jpeg" alt="Litígios Complexos - Araújo Advocacia" style="width:100%">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Litígios complexos</h4>
+                        <a href="#" data-toggle="modal" data-target="#modal-litigios" title="Saiba mais sobre Litígios complexos">Saiba mais</a>
+                    </div>
+                </div>
+                <!-- Propriedade Industrial -->
+                <div class="card img-fluid col-md-4 text-center" style="width:500px">
+                    <img class="card-img-top" src="img/atuacao-industrial.jpeg" alt="Direito de Propriedade Industrial - Araújo Advocacia" style="width:100%">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Propriedade Industrial</h4>
+                        <a href="#" data-toggle="modal" data-target="#modal-propriedade" title="Saiba mais sobre Direito de Propriedade Industrial">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Reestruturação e Insolvência -->
+                <div class="card img-fluid col-md-4 text-center " style="width:500px">
+                    <img class="card-img-top" src="img/atuacao-reestruturacao.jpeg" alt="Direito de Reestruturação e Insolvência - Araújo Advocacia" style="width:100%">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Direito de Reestruturação e Insolvência</h4>
+                        <a class="" href="#" data-toggle="modal" data-target="#modal-reestruturacao" title="Saiba mais sobre Direito de Reestruturação e Insolvência">Saiba mais</a>
+                    </div>
+                </div>
+                <!-- Responsabilidade Civil e Consumidor -->
+                <div class="card img-fluid col-md-4 text-center" style="width:500px">
+                    <img class="card-img-top" src="img/atuacao-civil.jpeg" alt="Direito de Responsabilidade Civil e do Consumidor - Araújo Advocacia" style="width:100%">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Direito de responsabilidade civil e do consumidor</h4>
+                        <a href="#" data-toggle="modal" data-target="#modal-responsabilidade" title="Saiba mais sobre Direito de Responsabilidade civil e do Consumidor">Saiba mais</a>
+                    </div>
+                </div>
+                <!-- Societário -->
+                <div class="card img-fluid col-md-4 text-center" style="width:500px">
+                    <img class="card-img-top" src="img/services_society.jpeg" alt="Direito Societário - Araújo Advocacia" style="width:100%">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Societário</h4>
+                        <a href="#" data-toggle="modal" data-target="#modal-societario"title="Saiba mais sobre Direito Societário">Saiba mais</a>
                     </div>
                 </div>
             </div>
         </div>
-       
-       <!-- Seção Áreas de Atuação -->
-        <div id="secao-atuacao" class="mt-5">
-            <div class="container"><h3 style="font-weight: 400;" class="text-center">Conheça algumas de nossas áreas de atuação:</h3></div>
-            <!-- Linha 1 -->
-            <div id="home-atuacao" class="container">
-                <div class="card" style="width: 400px;">
-                    <img class="card-img-top" style="width: 100%;" src="img/atuacao-coletivo.jpeg" alt="Direito Contencioso cível e empresarial - Araújo Advocacia">
-                    <div class="card-body">
-                        <p class="card-title">Contencioso cível e empresarial</p>
-                        <a href="#" class="btn" data-toggle="modal" title="Saiba mais sobre Direito Contencioso Cível e Empresarial" data-target="#modal-contencioso">Ver mais</a>
+               
+        <!-- Modal - Agronegócio -->
+        <div class="modal fade" id="modal-agronegocio">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Agronegócio</h4>
                     </div>
-                </div>
-                <br>
-                <div class="card" style="width: 400px;">
-                    <img class="card-img-top" style="width: 100%;" src="img/atuacao-familias.jpeg" alt="Direito de família e planejamento sucessório - Araújo Advocacia">
-                    <div class="card-body">
-                        <p class="card-title">Família e planejamento sucessório</p>
-                        <a href="#" class="btn" data-toggle="modal" title="Saiba mais sobre Direito de Família e planejamento sucessório" data-target="#modal-familia">Ver mais</a>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <p>O agronegócio, apesar de ser atividade fundamental à economia brasileira, enfrenta uma série de entraves legais e regulatórios para seu adequado desenvolvimento.</p>
+                        <br>
+                        <p>Por isso, cooperativas e produtores rurais demandam apoio constante e proativo de equipe técnica especializada. Afinal, é necessário lidar com questões de toda a cadeia produtiva, que vão desde a viabilização de negócios até o trato com questões fundiárias e, ocasionalmente, ambientais.</p>
+                        <br>
+                        <p>Dentro desse nicho, a Araújo Advocacia oferece serviços voltados especificamente aos agentes do agronegócio, com forte atuação junto a associações e sociedades cooperativas.</p>
+                        <button class="btn" type="button"><a id="modal-contato1" href="contato.html">Entre em contato</a></button>
                     </div>
-                </div>
-                <br>
-                <div class="card" style="width: 400px;">
-                    <img class="card-img-top" style="width: 100%;" src="img/atuacao-reestruturacao.jpeg" alt="Direito de Reestruturação e insolvência - Araújo Advocacia">
-                    <div class="card-body">
-                        <p class="card-title">Reestruturação e insolvência</p>
-                        <a href="#" class="btn" data-toggle="modal" title="Saiba mais sobre Direito de Reestruturação e Insolvência" data-target="#modal-reestruturacao">Ver mais</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Linha 2 -->
-            <div id="home-atuacao" class="container">
-                <div class="card" style="width: 400px;">
-                    <img class="card-img-top" style="width: 100%;" src="img/atuacao-agronegocios.jpeg" alt="Direito de Agronegócio - Araújo Advocacia">
-                    <div class="card-body">
-                        <p class="card-title">Agronegócio</p>
-                        <a href="#" class="btn" data-toggle="modal" title="Saiba mais sobre Direito de Agronegócios" data-target="#modal-contencioso">Ver mais</a>
-                    </div>
-                </div>
-                <br>
-                <div class="card" style="width: 400px;">
-                    <img class="card-img-top" style="width: 100%;" src="img/atuacao-contatos.jpeg" alt="Direito Contratual e Estruturação de Negócios - Araújo Advocacia">
-                    <div class="card-body">
-                        <p class="card-title">Contratos e Estruturação de Negócios</p>
-                        <a href="#" class="btn" data-toggle="modal" title="Saiba mais sobre Direito Contratual e Estruturação de Negócios" data-target="#modal-familia">Ver mais</a>
-                    </div>
-                </div>
-                <br>
-                <div class="card" style="width: 400px;">
-                    <img class="card-img-top" style="width: 100%;" src="img/atuacao-conflitos.jpeg" alt="Direito de Conciliação e Mediação - Araújo Advocacia">
-                    <div class="card-body">
-                        <p class="card-title">Conciliação e Mediação</p>
-                        <a href="#" class="btn" data-toggle="modal" title="Saiba mais sobre Direito de Conciliação e Mediação" data-target="#modal-reestruturacao">Ver mais</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Linha 3 -->
-            <div id="home-atuacao" class="container">
-                <div class="card" style="width: 400px;">
-                    <img class="card-img-top" style="width: 100%;" src="img/services_company.jpeg" alt="Direito público empresarial - Araújo Advocacia">
-                    <div class="card-body">
-                        <p class="card-title">Direito público empresarial</p>
-                        <a href="#" class="btn" data-toggle="modal" title="Saiba mais sobre Direito público empresarial" data-target="#modal-contencioso">Ver mais</a>
-                    </div>
-                </div>
-                <br>
-                <div class="card" style="width: 400px;">
-                    <img class="card-img-top" style="width: 100%;" src="img/atuacao-financas.jpeg" alt="Direito de Finanças e Investimentos - Araújo Advocacia">
-                    <div class="card-body">
-                        <p class="card-title">Finanças e Investimentos</p>
-                        <a href="#" class="btn" data-toggle="modal" title="Saiba mais sobre Direito de Finanças e Investimentos" data-target="#modal-familia">Ver mais</a>
-                    </div>
-                </div>
-                <br>
-                <div class="card" style="width: 400px;">
-                    <img class="card-img-top" style="width: 100%;" src="img/atuacao-litigios.jpeg" alt="Litígios Complexos - Araújo Advocacia">
-                    <div class="card-body">
-                        <p class="card-title">Litígios Complexos</p>
-                        <a href="#" class="btn" data-toggle="modal" title="Saiba mais sobre Litígios Complexos" data-target="#modal-reestruturacao">Ver mais</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Linha 4 -->
-            <div id="home-atuacao" class="container">
-                <div class="card" style="width: 400px;">
-                    <img class="card-img-top" style="width: 100%;" src="img/atuacao-industrial.jpeg" alt="Direito de Propriedade Industrial - Araújo Advocacia">
-                    <div class="card-body">
-                        <p class="card-title">Propriedade Industrial</p>
-                        <a href="#" class="btn" data-toggle="modal" title="Saiba mais sobre Direito de Propriedade Industrial" data-target="#modal-contencioso">Ver mais</a>
-                    </div>
-                </div>
-                <br>
-                <div class="card" style="width: 400px;">
-                    <img class="card-img-top" style="width: 100%;" src="img/atuacao-familias.jpeg" alt="Direito de Responsabilidade Civil e do Consumidor - Araújo Advocacia">
-                    <div class="card-body">
-                        <p class="card-title">Responsabilidade Civil e Consumidor</p>
-                        <a href="#" class="btn" data-toggle="modal" title="Saiba mais sobre Direito de Responsabilidade Civil e do Consumidor" data-target="#modal-familia">Ver mais</a>
-                    </div>
-                </div>
-                <br>
-                <div class="card" style="width: 400px;">
-                    <img class="card-img-top" style="width: 100%;" src="img/services_society.jpeg" alt="Direito Societário - Araújo Advocacia">
-                    <div class="card-body">
-                        <p class="card-title">Reestruturação e insolvência</p>
-                        <a href="#" class="btn" data-toggle="modal" title="Saiba mais sobre Direito Societário" data-target="#modal-reestruturacao">Ver mais</a>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Modal - Contencioso -->
-            <div class="modal fade" id="modal-contencioso">
-                <div class="modal-dialog modal-xl">
-                    <div class="modal-content">
-                        <!-- Modal Header -->
-                        <div class="modal-header">
-                            <h4 class="modal-title">Contencioso cível e empresarial</h4>
-                        </div>
-                        <!-- Modal body -->
-                        <div class="modal-body">
-                            <p>A Araújo Advocacia representa e instrui seus clientes, judicial ou extrajudicialmente, em todo tipo de disputa nas áreas cível e empresarial.</p>
-                            <br>
-                            <p>Ao conhecer, profunda e concomitantemente, o processo civil e as necessidades materiais inerentes à sua atuação prática, prestamos uma advocacia combativa e focada em resultados, pautada na lealdade e na transparência. Além disso, trabalhamos ao longo dos anos com pareceres, notas técnicas e orientações técnico- jurídicas ligadas a questões processuais de diferentes graus de especificidade e complexidade.</p>
-                            <button class="btn" type="button"><a id="modal-contato1" href="contato.html">Entre em contato</a></button>
-                        </div>
-                        <!-- Modal Footer -->
-                        <div class="modal-footer">
-                            <button type="button" class="btn" data-dismiss="modal">Fechar</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Modal - Familia -->
-            <div class="modal fade" id="modal-familia">
-                <div class="modal-dialog modal-xl">
-                    <div class="modal-content">
-                        <!-- Modal Header -->
-                        <div class="modal-header">
-                            <h4 class="modal-title">Família e planejamento sucessório</h4>
-                        </div>
-                        <!-- Modal body -->
-                        <div class="modal-body">
-                            <p>Problemas familiares podem estar no âmago de algumas das maiores frustrações da vida de quem por eles passa. Situações envolvendo divórcio, divisão de patrimônio, guarda de filhos ou fixação de pensão podem gerar abalos e desgastes insuperáveis para todos os envolvidos.</p>
-                            <br>
-                            <p>Por tal motivo, a Araújo possui grupo interno voltado à atuação específica no Direito de Família, especificamente em duas frentes: (i) no fornecimento da solução que apazigue a situação e atenda aos interesses de nossos clientes e (ii) no planejamento de todos os reflexos patrimoniais que a situação familiar pode gerar.</p>
-                            <br>
-                            <p>Com muito tato, sensibilidade, profissionalismo e treinamento nas áreas financeira e de negociação, a equipe da Araújo Advocacia presta serviços diferenciados e reconhecidos nessa área.</p>
-                            <button class="btn" type="button"><a id="modal-contato2" href="contato.html">Entre em contato</a></button>
-                        </div>
-                        <!-- Modal Footer -->
-                        <div class="modal-footer">
-                            <button type="button" class="btn" data-dismiss="modal">Fechar</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Modal - Reestruturação -->
-            <div class="modal fade" id="modal-reestruturacao">
-                <div class="modal-dialog modal-xl">
-                    <div class="modal-content">
-                        <!-- Modal Header -->
-                        <div class="modal-header">
-                            <h4 class="modal-title">Reestruturação e insolvência</h4>
-                        </div>
-                        <!-- Modal body -->
-                        <div class="modal-body">
-                            <p>Em razão da formação e experiência de seus sócios na área financeira, a Araújo Advocacia presta serviços únicos na área de reestruturação e insolvência.</p>
-                            <br>
-                            <p>Trabalhando com devedores, a Araújo Advocacia efetua uma avaliação e acompanhamento geral da situação de seus clientes, desde o diagnóstico da origem das dificuldades financeiras, passando pela definição de estratégias para contornar o problema (turnaround management), culminando, eventualmente, na estruturação das medidas jurídicas a serem adotadas.</p>
-                            <br>
-                            <p>Representando credores e investidores, a Araújo Advocacia atua na reestruturação e negociação bilateral de dívidas, atuação judicial e em assembleias, negociação de compra de unidades produtivas isoladas, avaliação de viabilidade de planos de recuperação, dentre outras frentes jurídicas e financeiras.</p>
-                            <br>
-                            <p>Com isso, a atuação do Escritório é uma verdadeira vantagem competitiva aos seus clientes, na medida em que a Araújo Advocacia identifica oportunidades, projetos e condições e fornece soluções que outros profissionais, em uma abordagem jurídica tradicional, não encontrariam.</p>
-                            <button class="btn" type="button"><a id="modal-contato3" href="contato.html">Entre em contato</a></button>
-                        </div>
-                        <!-- Modal Footer -->
-                        <div class="modal-footer">
-                            <button type="button" class="btn" data-dismiss="modal">Fechar</button>
-                        </div>
+                    <!-- Modal Footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn" data-dismiss="modal">Fechar</button>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Modal - Contratos e estrturação de negócios -->
+        <div class="modal fade" id="modal-contratos">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Contratos e estruturação e negócios</h4>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <p>Um bom contrato é a melhor forma de se evitar um processo desnecessário.</p>
+                        <br>
+                        <p>Com essa mentalidade e abordagens que abandonam uma visão limitada e tradicional do Direito, a equipe da Araújo Advocacia trabalha de maneira conjunta para fornecer soluções customizadas e completas na área contratual, visando a atender – de maneira clara, completa, objetiva e protetiva – aos interesses de seus clientes.</p>
+                        <button class="btn" type="button"><a id="modal-contato2" href="contato.html">Entre em contato</a></button>
+                    </div>
+                    <!-- Modal Footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal - Conciliação e mediação -->
+        <div class="modal fade" id="modal-conciliacao">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Conciliação e mediação</h4>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <p>Muitas vezes, a solução jurídica mais adequada à resolução de uma disputa se encontra na autocomposição – permitindo que os próprios envolvidos na disputa, por meio de debates ou de diálogos facilitados, alcancem esse resultado.</p>
+                        <br>
+                        <p>Nesse mesmo sentido, é fundamental que os clientes, possuam aconselhamento adequado em momentos anteriores ao eventual litígio, conhecendo os riscos inerentes a demandas e avaliando se o litígio é a melhor saída para obtenção do resultado almejado.</p>
+                        <br>
+                        <p>Por isso, o corpo técnico da Araújo Advocacia tem expertise em lidar com negociações voltadas a facilitar o acertamento consensual de disputas, permitindo que sejam preservados os interesses de todas as partes envolvidas.</p>
+                        <button class="btn" type="button"><a id="modal-contato3" href="contato.html">Entre em contato</a></button>
+                    </div>
+                    <!-- Modal Footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal - Contencioso cível e empresarial -->
+        <div class="modal fade" id="modal-contencioso">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Contencioso cível e empresarial</h4>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <p>A Araújo Advocacia representa e instrui seus clientes, judicial ou extrajudicialmente, em todo tipo de disputa nas áreas cível e empresarial.</p>
+                        <br>
+                        <p>Ao conhecer, profunda e concomitantemente, o processo civil e as necessidades materiais inerentes à sua atuação prática, prestamos uma advocacia combativa e focada em resultados, pautada na lealdade e na transparência. Além disso, trabalhamos ao longo dos anos com pareceres, notas técnicas e orientações técnico- jurídicas ligadas a questões processuais de diferentes graus de especificidade e complexidade.</p>
+                        <button class="btn" type="button"><a id="modal-contato2" href="contato.html">Entre em contato</a></button>
+                    </div>
+                    <!-- Modal Footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal - Direito público empresarial -->
+        <div class="modal fade" id="modal-publico">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Direito público empresarial</h4>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <p>É inevitável que, na atuação social contemporânea, haja interações com o setor público e com a sua esfera regulatória. E, diante desse liame, existe o constante risco de entraves e de situações problemáticas.</p>
+                        <br>
+                        <p>Por isso, Araújo Advocacia presta serviços selecionados na área de Direito Público Empresarial, tanto em âmbito consultivo quanto na representação em sede de processos judiciais afetos à Administração Pública.</p>
+                        <br>
+                        <p>A Araújo Advocacia possui um histórico de sucesso em demandas de Direito Público, seja em âmbito estadual ou federal, envolvendo questões inseridas em esferas como a matéria ambiental e o setor de saúde suplementar.</p>
+                        <button class="btn" type="button"><a id="modal-contato2" href="contato.html">Entre em contato</a></button>
+                    </div>
+                    <!-- Modal Footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal - Família e planejamento sucessório -->
+        <div class="modal fade" id="modal-familia">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Família e planejamento sucessório</h4>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <p>Problemas familiares podem estar no âmago de algumas das maiores frustrações da vida de quem por eles passa. Situações envolvendo divórcio, divisão de patrimônio, guarda de filhos ou fixação de pensão podem gerar abalos e desgastes insuperáveis para todos os envolvidos.</p>
+                        <br>
+                        <p>Por tal motivo, a Araújo Advocacia possui grupo interno voltado à atuação específica no Direito de Família, especificamente em duas frentes: (i) no fornecimento da solução que apazigue a situação e atenda aos interesses de nossos clientes e (ii) no planejamento de todos os reflexos patrimoniais que a situação familiar pode gerar.</p>
+                        <br>
+                        <p>Com muito tato, sensibilidade, profissionalismo e treinamento nas áreas financeira e de negociação, a equipe da Araújo Advocacia presta serviços diferenciados e reconhecidos nessa área.</p>
+                        <button class="btn" type="button"><a id="modal-contato2" href="contato.html">Entre em contato</a></button>
+                    </div>
+                    <!-- Modal Footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal - Finanças e investimentos -->
+        <div class="modal fade" id="modal-financas">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Finanças e investimentos</h4>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <p>A Araújo Advocacia presta assessoria jurídica sofisticada na estruturação de transações financeiras e de investimentos de nossos clientes.</p>
+                        <br>
+                        <p>Contando com equipe com formação técnica e reconhecidos conhecimentos nas áreas de avaliação de empresas e outros ativos (valuation e asset pricing), finanças corporativas e análise de viabilidade de projetos, a Araújo Advocacia fornece soluções integradas, inovadoras e únicas no mercado, em prol do patrimônio financeiro de nossos clientes.</p>
+                        <button class="btn" type="button"><a id="modal-contato2" href="contato.html">Entre em contato</a></button>
+                    </div>
+                    <!-- Modal Footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal - Litígios complexos -->
+        <div class="modal fade" id="modal-litigios">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Litígios complexos</h4>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <p>A Araújo Advocacia tem reconhecido sucesso em sua atuação no âmbito de litígios complexos – seja conduzindo-os até a sua resolução satisfatória, seja pela emissão de pareceres ou de notas técnicas capazes de contribuir para a sua resolução. Trata-se de consequência direta da especialização acadêmica e profissional de seu corpo técnico no campo do direito processual.</p>
+                        <br>
+                        <p>Inserem-se aqui, como exemplo, disputas providas de dubiedades processuais, litígios afetos a diferentes áreas do direito ou que exijam prova complexa e, ainda, processos ligados a direitos coletivos, difusos ou individuais homogêneos.</p>
+                        <br>
+                        <p>A Araújo Advocacia está na fronteira da área de demandas complexas, liderando e moldando o debate jurídico em diversos assuntos de elevado vulto.</p>
+                        <button class="btn" type="button"><a id="modal-contato2" href="contato.html">Entre em contato</a></button>
+                    </div>
+                    <!-- Modal Footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal - Propriedade industrial -->
+        <div class="modal fade" id="modal-propriedade">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Propriedade industrial</h4>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <p>Diversas vezes, o ativo mais relevante de nossos clientes é intangível. Trata-se de algo cada vez mais corriqueiro em uma economia digital. Inovação é, atualmente, palavra-chave para o sucesso de um empreendimento.</p>
+                        <br>
+                        <p>Nesse sentido, a Araújo Advocacia atua na área de da propriedade industrial, fornecendo todo o suporte técnico-jurídico aos nossos clientes inovadores e disruptivos, para que eles possam se preocupar exclusivamente com o que mais sabem: criar.</p>
+                        <br>
+                        <p>A Araújo Advocacia atua de maneira aguerrida perante o Instituto Nacional da Propriedade Industrial (INPI) e o Judiciário para proteger as ideias e criações de seus clientes, sejam marcas, patentes ou outra forma de produção intelectual.</p>
+                        <button class="btn" type="button"><a id="modal-contato2" href="contato.html">Entre em contato</a></button>
+                    </div>
+                    <!-- Modal Footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal - Reestruturação e insolvência -->
+        <div class="modal fade" id="modal-reestruturacao">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Reestruturação e insolvência</h4>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <p>Em razão da formação e experiência de seus sócios na área financeira, a Araújo Advocacia presta serviços únicos na área de reestruturação e insolvência.</p>
+                        <br>
+                        <p>Trabalhando com devedores, a Araújo Advocacia efetua uma avaliação e acompanhamento geral da situação de seus clientes, desde o diagnóstico da origem das dificuldades financeiras, passando pela definição de estratégias para contornar o problema (turnaround management), culminando, eventualmente, na estruturação das medidas jurídicas a serem adotadas.</p>
+                        <br>
+                        <p>Representando credores e investidores, a Araújo Advocacia atua na reestruturação e negociação bilateral de dívidas, atuação judicial e em assembleias, negociação de compra de unidades produtivas isoladas, avaliação de viabilidade de planos de recuperação, dentre outras frentes jurídicas e financeiras.</p>
+                        <br>
+                        <p>Com isso, a atuação do Escritório é uma verdadeira vantagem competitiva aos seus clientes, na medida em que a Araújo Advocacia identifica oportunidades, projetos e condições e fornece soluções que outros profissionais, em uma abordagem jurídica tradicional, não encontrariam.</p>
+                        <button class="btn" type="button"><a id="modal-contato2" href="contato.html">Entre em contato</a></button>
+                    </div>
+                    <!-- Modal Footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal - Responsabilidade civil e do consumidor -->
+        <div class="modal fade" id="modal-responsabilidade">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Responsabilidade civil e do consumidor</h4>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <p>A Araújo Advocacia atua ativamente na proteção de seus clientes contra atos ilícitos cometidos por terceiros em geral, e por fornecedores de produtos e serviços ao consumidor final em específico.</p>
+                        <br>
+                        <p>O Escritório possui histórico de expressivas vitórias judiciais em litígios consumeristas e de responsabilidade civil envolvendo instituições financeiras, seguradoras, companhias aéreas, empresas de telefonia e grandes empresas de varejo – possuindo em seu portfolio atuação tanto em favor da parte consumidora quanto das companhias envolvidas no debate.</p>
+                        <button class="btn" type="button"><a id="modal-contato2" href="contato.html">Entre em contato</a></button>
+                    </div>
+                    <!-- Modal Footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal - Societário -->
+        <div class="modal fade" id="modal-societario">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Societário</h4>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <p>Um planejamento adequado é necessidade para o sucesso de qualquer atividade econômica. E isso passa, invariavelmente, pela escolha correta da roupagem e estrutura jurídica que um negócio terá – inclusive do tipo societário utilizado.</p>
+                        <br>
+                        <p>A Araújo Advocacia tem elevada expertise em âmbito societário. Atuamos com todos os tipos de sociedades empresárias, desde sua constituição, passando por reestruturações, até o encerramento de atividades.</p>
+                        <br>
+                        <p>Faz parte do nosso negócio entender como funciona o seu e, a partir disso, dizer como podemos te ajudar.</p>
+                        <button class="btn" type="button"><a id="modal-contato2" href="contato.html">Entre em contato</a></button>
+                    </div>
+                    <!-- Modal Footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Footer -->
         <div id="rodape" class="jumbotron text-center mt-5">
             <div class="row">
                 <!-- Endereço -->
-                <div class="col-sm-6" id="footer-endereco">
+                <div id="footer-endereco" class="col-sm-6" >
                     <h2>Araújo Advocacia</h2>
                     <p>Araújo Sociedade de Advogados</p>
                     <br>
@@ -288,16 +495,18 @@
                         </a>
                     </div>
                 </div>
-                <!-- Telefone -->
-                <div class="col-sm-6" id="footer-telefone">
+                <!-- Telefone e Email -->
+                <div id="footer-tel-email" class="col-sm-6" >
                     <h2><a href="tel:22998574311">22 9 9857 4311</a></h2>
                     <p><a href="mailto:contato@araujowebdev.com">contato@araujowebdev.com</a></p>
                 </div>
             </div>
         </div>
-        <div id="desenvolvedor">
-            <p>Desenvolvido por <a href="https://araujowebdev.com/" target="blank">Raphael Araújo</a></p>
+        <!-- Direitos Reservados e Link para o Desenvolvedor-->
+        <div id="direitos-dev">
+            <p>&copy; 2020 Todos os direitos reservados | Desenvolvido por <a href="https://araujowebdev.com/" target="blank">Raphael Araújo</a></p>
         </div>
+
         <!-- JS, Popper.js e jQuery -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
