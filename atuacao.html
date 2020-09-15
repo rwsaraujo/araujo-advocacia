@@ -17,43 +17,45 @@
         <div class="container">
             <nav id="menuNavegacao" class="navbar navbar-expand-sm navbar-dark">
                 <!-- Marca/Logo -->
-                <a class="navbar-brand" href="index.html" title="Voltar para a Home"><img src="img/logo-araujo-advocacia.png" alt="Logo - Araújo Advocacia" width="100px"></a>
+                <a class="navbar-brand" href="index.html" title="Araújo Advocacia"><img src="img/logo-araujo-advocacia.png" alt="Logo - Araújo Advocacia" width="100px"></a>
                 <!-- Menu Button -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
                 <!-- Links -->
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul id="listaNavegacao" class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" href="index.html" title="Página inicial">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="sobre.html">Sobre</a>
+                            <a class="nav-link" href="sobre.html" title="Conheça mais sobre a Araújo Advocacia">Sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link pagina-atual" href="#">Atuação</a>
+                            <a class="nav-link pagina-atual" href="#" title="Conheça melhor nossas áreas de atuação">Atuação</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="socios.html">Sócios</a>
+                            <a class="nav-link" href="socios.html" title="Conheça os sócios da Araújo advocacia">Sócios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contato.html">Contato</a>
+                            <a class="nav-link" href="contato.html" title="Entre em contato">Contato</a>
                         </li>
                     </ul>
                 </div>
             </nav>
         </div>
+
         <!-- Banner -->
         <div id="sobre-imagem" class="container">
             <div class="carousel-inner">
-                <img style="filter: brightness(0.3);" src="img/atuacao_hero-title-57.jpeg" alt="Sobre a Araújo Advocacia" width="1100">
+                <img src="img/atuacao_hero-title-57.jpeg" alt="Sobre a Araújo Advocacia" width="1100">
                 <div class="carousel-caption">
-                    <h2 style="font-weight: 200;">Atuação</h2>
-                    <p class="d-none d-md-block">A Araújo Sociedade de Advogados, com sua equipe altamente técnica e multidisciplinar, fornece soluções especializadas e integradas em diferentes setores, tanto para pessoas físicas quanto jurídicas, sempre com um sócio responsável pela condução do respectivo grupo.</p>
+                    <h2>Atuação</h2>
+                    <p id="atuacao-banner-txt" class="d-none d-md-block">A Araújo Sociedade de Advogados, com sua equipe altamente técnica e multidisciplinar, fornece soluções especializadas e integradas em diferentes setores, tanto para pessoas físicas quanto jurídicas, sempre com um sócio responsável pela condução do respectivo grupo.</p>
                 </div>
             </div>
         </div>
+
         <!-- Os Sócios -->
-        <div class="container mt-5 mb-5 pt-5 pb-5 pl-5 pr-5">
+        <div id="atuacao-socios" class="container mt-5 mb-5 pt-5 pb-5 pl-5 pr-5">
             <div class="row mt-5 mb-5">
                 <div class="col-md-4">
                     <h2><a href="mateus-araujo.html">Mateus Araújo</a></h2>
@@ -89,24 +91,24 @@
         <div id="home-atuacao-cards" class="container align-content-center">
             <div class="row my-2">
                 <!-- Agronegócio -->
-                <div class="card img-fluid col-md-4 text-center " style="width:500px">
-                    <img class="card-img-top" src="img/atuacao-agronegocios.jpeg" alt="Direito de Agronegócio - Araújo Advocacia" style="width:100%">
+                <div class="card img-fluid col-md-4 text-center ">
+                    <img class="card-img-top" src="img/atuacao-agronegocios.jpeg" alt="Direito de Agronegócio - Araújo Advocacia">
                     <div class="card-img-overlay">
                         <h4 class="card-title">Agronegócio</h4>
-                        <a class="" href="#" data-toggle="modal" data-target="#modal-agronegocio" title="Saiba mais sobre Direito de Agronegócios">Saiba mais</a>
+                        <a href="#" data-toggle="modal" data-target="#modal-agronegocio" title="Saiba mais sobre Direito de Agronegócios">Saiba mais</a>
                     </div>
                 </div>
                 <!-- Contratos e Estruturação de Negócios -->
-                <div class="card img-fluid col-md-4 text-center" style="width:500px">
-                    <img class="card-img-top" src="img/atuacao-contatos.jpeg" alt="Direito Contratual e Estruturação de Negócios - Araújo Advocacia" style="width:100%">
+                <div class="card img-fluid col-md-4 text-center">
+                    <img class="card-img-top" src="img/atuacao-contatos.jpeg" alt="Direito Contratual e Estruturação de Negócios - Araújo Advocacia">
                     <div class="card-img-overlay">
                         <h4 class="card-title">Contratos e estruturação de negócios</h4>
                         <a href="#" data-toggle="modal" data-target="#modal-contratos" title="Saiba mais sobre Direito Contratual e estruturação de negócios">Saiba mais</a>
                     </div>
                 </div>
                 <!-- Conciliação e Mediação -->
-                <div class="card img-fluid col-md-4 text-center" style="width:500px">
-                    <img class="card-img-top" src="img/atuacao-conflitos.jpeg" alt="Direito de Conciliação e Mediação - Araújo Advocacia" style="width:100%">
+                <div class="card img-fluid col-md-4 text-center">
+                    <img class="card-img-top" src="img/atuacao-conflitos.jpeg" alt="Direito de Conciliação e Mediação - Araújo Advocacia">
                     <div class="card-img-overlay">
                         <h4 class="card-title">Conciliação e mediação</h4>
                         <a href="#" data-toggle="modal" data-target="#modal-conciliacao" title="Saiba mais sobre Direito de Conciliação e Mediação">Saiba mais</a>
@@ -116,24 +118,24 @@
 
             <div class="row my-2">
                 <!-- Contencioso Cível e Empresarial -->
-                <div class="card img-fluid col-md-4 text-center " style="width:500px">
-                    <img class="card-img-top" src="img/atuacao-coletivo.jpeg" alt="Direito Contencioso e empresarial - Araújo Advocacia" style="width:100%">
+                <div class="card img-fluid col-md-4 text-center ">
+                    <img class="card-img-top" src="img/atuacao-coletivo.jpeg" alt="Direito Contencioso e empresarial - Araújo Advocacia">
                     <div class="card-img-overlay">
                         <h4 class="card-title">Contencioso cível e empresarial</h4>
-                        <a class="" href="#" data-toggle="modal" data-target="#modal-contencioso" title="Saiba mais sobre Direito contencioso cível e empresarial">Saiba mais</a>
+                        <a href="#" data-toggle="modal" data-target="#modal-contencioso" title="Saiba mais sobre Direito contencioso cível e empresarial">Saiba mais</a>
                     </div>
                 </div>
                 <!-- Direito Público Empresarial -->
-                <div class="card img-fluid col-md-4 text-center" style="width:500px">
-                    <img class="card-img-top" src="img/services_company.jpeg" alt="Direito Público Empresarial - Araújo Advocacia" style="width:100%">
+                <div class="card img-fluid col-md-4 text-center">
+                    <img class="card-img-top" src="img/services_company.jpeg" alt="Direito Público Empresarial - Araújo Advocacia">
                     <div class="card-img-overlay">
                         <h4 class="card-title">Direito público empresarial</h4>
                         <a href="#" data-toggle="modal" data-target="#modal-publico" title="Saiba mais sobre Direito público empresarial">Saiba mais</a>
                     </div>
                 </div>
                 <!-- Família e Planejamento Sucessório -->
-                <div class="card img-fluid col-md-4 text-center" style="width:500px">
-                    <img class="card-img-top" src="img/atuacao-familias.jpeg" alt="Direito de Família e Planejamento Sucessório - Araújo Advocacia" style="width:100%">
+                <div class="card img-fluid col-md-4 text-center">
+                    <img class="card-img-top" src="img/atuacao-familias.jpeg" alt="Direito de Família e Planejamento Sucessório - Araújo Advocacia">
                     <div class="card-img-overlay">
                         <h4 class="card-title">Família e planejamento sucessório</h4>
                         <a href="#" data-toggle="modal" data-target="#modal-familia" title="Saiba mais sobre Direito de Família e planejamento sucessório">Saiba mais</a>
@@ -143,24 +145,24 @@
 
             <div class="row my-2">
                 <!-- Finanças e Investimentos -->
-                <div class="card img-fluid col-md-4 text-center " style="width:500px">
-                    <img class="card-img-top" src="img/atuacao-financas.jpeg" alt="Direito de Finanças e Investimentos - Araújo Advocacia" style="width:100%">
+                <div class="card img-fluid col-md-4 text-center ">
+                    <img class="card-img-top" src="img/atuacao-financas.jpeg" alt="Direito de Finanças e Investimentos - Araújo Advocacia">
                     <div class="card-img-overlay">
                         <h4 class="card-title">Direito de finanças e investimentos</h4>
                         <a class="" href="#" data-toggle="modal" data-target="#modal-financas" title="Saiba mais sobre Direito de Finanças e Investimentos">Saiba mais</a>
                     </div>
                 </div>
                 <!-- Litígios Complexos -->
-                <div class="card img-fluid col-md-4 text-center" style="width:500px">
-                    <img class="card-img-top" src="img/atuacao-litigios.jpeg" alt="Litígios Complexos - Araújo Advocacia" style="width:100%">
+                <div class="card img-fluid col-md-4 text-center">
+                    <img class="card-img-top" src="img/atuacao-litigios.jpeg" alt="Litígios Complexos - Araújo Advocacia">
                     <div class="card-img-overlay">
                         <h4 class="card-title">Litígios complexos</h4>
                         <a href="#" data-toggle="modal" data-target="#modal-litigios" title="Saiba mais sobre Litígios complexos">Saiba mais</a>
                     </div>
                 </div>
                 <!-- Propriedade Industrial -->
-                <div class="card img-fluid col-md-4 text-center" style="width:500px">
-                    <img class="card-img-top" src="img/atuacao-industrial.jpeg" alt="Direito de Propriedade Industrial - Araújo Advocacia" style="width:100%">
+                <div class="card img-fluid col-md-4 text-center">
+                    <img class="card-img-top" src="img/atuacao-industrial.jpeg" alt="Direito de Propriedade Industrial - Araújo Advocacia">
                     <div class="card-img-overlay">
                         <h4 class="card-title">Propriedade Industrial</h4>
                         <a href="#" data-toggle="modal" data-target="#modal-propriedade" title="Saiba mais sobre Direito de Propriedade Industrial">Saiba mais</a>
@@ -170,24 +172,24 @@
 
             <div class="row">
                 <!-- Reestruturação e Insolvência -->
-                <div class="card img-fluid col-md-4 text-center " style="width:500px">
-                    <img class="card-img-top" src="img/atuacao-reestruturacao.jpeg" alt="Direito de Reestruturação e Insolvência - Araújo Advocacia" style="width:100%">
+                <div class="card img-fluid col-md-4 text-center ">
+                    <img class="card-img-top" src="img/atuacao-reestruturacao.jpeg" alt="Direito de Reestruturação e Insolvência - Araújo Advocacia">
                     <div class="card-img-overlay">
                         <h4 class="card-title">Direito de Reestruturação e Insolvência</h4>
-                        <a class="" href="#" data-toggle="modal" data-target="#modal-reestruturacao" title="Saiba mais sobre Direito de Reestruturação e Insolvência">Saiba mais</a>
+                        <a href="#" data-toggle="modal" data-target="#modal-reestruturacao" title="Saiba mais sobre Direito de Reestruturação e Insolvência">Saiba mais</a>
                     </div>
                 </div>
                 <!-- Responsabilidade Civil e Consumidor -->
-                <div class="card img-fluid col-md-4 text-center" style="width:500px">
-                    <img class="card-img-top" src="img/atuacao-civil.jpeg" alt="Direito de Responsabilidade Civil e do Consumidor - Araújo Advocacia" style="width:100%">
+                <div class="card img-fluid col-md-4 text-center">
+                    <img class="card-img-top" src="img/atuacao-civil.jpeg" alt="Direito de Responsabilidade Civil e do Consumidor - Araújo Advocacia">
                     <div class="card-img-overlay">
                         <h4 class="card-title">Direito de responsabilidade civil e do consumidor</h4>
                         <a href="#" data-toggle="modal" data-target="#modal-responsabilidade" title="Saiba mais sobre Direito de Responsabilidade civil e do Consumidor">Saiba mais</a>
                     </div>
                 </div>
                 <!-- Societário -->
-                <div class="card img-fluid col-md-4 text-center" style="width:500px">
-                    <img class="card-img-top" src="img/services_society.jpeg" alt="Direito Societário - Araújo Advocacia" style="width:100%">
+                <div class="card img-fluid col-md-4 text-center">
+                    <img class="card-img-top" src="img/services_society.jpeg" alt="Direito Societário - Araújo Advocacia">
                     <div class="card-img-overlay">
                         <h4 class="card-title">Societário</h4>
                         <a href="#" data-toggle="modal" data-target="#modal-societario"title="Saiba mais sobre Direito Societário">Saiba mais</a>
@@ -488,7 +490,7 @@
                     <p>Araújo Sociedade de Advogados</p>
                     <br>
                     <div id="bloco-endereco">
-                        <a href="https://goo.gl/maps/qdC94sk2jAfupxXu5" target="blank">
+                        <a href="https://goo.gl/maps/qdC94sk2jAfupxXu5" target="blank" title="Nos encontre no Google Maps">
                             <p>Rua Três, 002 - Itatiquara.</p>
                             <p>Araruama, Rio de Janeiro.</p>
                             <p>28970-000</p>
@@ -497,14 +499,14 @@
                 </div>
                 <!-- Telefone e Email -->
                 <div id="footer-tel-email" class="col-sm-6" >
-                    <h2><a href="tel:22998574311">22 9 9857 4311</a></h2>
-                    <p><a href="mailto:contato@araujowebdev.com">contato@araujowebdev.com</a></p>
+                    <h2><a href="tel:22998574311" title="Telefone">22 9 9857 4311</a></h2>
+                    <p><a href="mailto:contato@araujowebdev.com" title="Email">contato@araujowebdev.com</a></p>
                 </div>
             </div>
         </div>
         <!-- Direitos Reservados e Link para o Desenvolvedor-->
         <div id="direitos-dev">
-            <p>&copy; 2020 Todos os direitos reservados | Desenvolvido por <a href="https://araujowebdev.com/" target="blank">Raphael Araújo</a></p>
+            <p>&copy; 2020 Todos os direitos reservados | Desenvolvido por <a href="https://araujowebdev.com/" target="blank" title="Raphael Araújo Desenvolvimento Web">Raphael Araújo</a></p>
         </div>
 
         <!-- JS, Popper.js e jQuery -->
