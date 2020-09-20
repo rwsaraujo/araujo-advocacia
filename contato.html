@@ -51,11 +51,11 @@
         <!-- Formulário de Contato -->
         <div class="container mb-5">
             <form action="post">
-               <div class="row mb-2">
-                    <div class="col-md-6">
+               <div class="row">
+                    <div class="col-md-6 mb-2">
                         <input type="text" name="nome" id="nome" class="form-control" placeholder="Nome completo">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 mb-2">
                         <input type="email" name="email" id="email" class="form-control" placeholder="Email">
                     </div>
                </div>
@@ -64,9 +64,14 @@
                         <input type="text" name="assunto" id="assunto" class="form-control" placeholder="Assunto">
                     </div>
                </div>
-               <div class="row">
+               <div class="row mb-2">
                     <div class="col">
                         <textarea name="mensagem" id="mensagem" class="form-control" placeholder="Mensagem"></textarea>
+                    </div>
+               </div>
+               <div class="row">
+                    <div class="col">
+                        <button type="submit" class="btn btn-secondary">Enviar</button>
                     </div>
                </div>
             </form>
